@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+Title of the project ---> Hack-Hex (Wasserstoff Assignment)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technology Stack ---> RectJs. However, I could have used vite, I just wanted to make it a little challenging. I started out in web development when people still had to create a react app with - "npx-create-react-app . ", So i thought of making this project this way.
 
-## Available Scripts
+Libraries used --->
 
-In the project directory, you can run:
+Apexharts - I had used this in One of the Admin Dashboards i made last year, So it was fun using it again. https://takeabasket.netlify.app/
 
-### `npm start`
+bootstrap - TailwindCSS has made life easy, This is the OG
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+react-router-dom - Routing made easy.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Recharts - Data visualisation is not a nightmare, Anymore.
 
-### `npm test`
+Steps to run/build the project ----->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+TO RUN THE PROJECT --->
 
-### `npm run build`
+cd "folder-name" npm install npm start Runs the app in the development mode. Open http://localhost:3000/ to view it in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The page will reload when you make changes. You may also see any lint errors in the console.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+TO BUILD THE PROJECT --->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd "folder-name" npm run build
 
-### `npm run eject`
+Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Hosted Link ---> https://hex-hack.vercel.app/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Video link ---> Will be available in 24 hours
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Approach --->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+After going through the figma file. I broke project into a small components. So, Firstly I made Navbar, Secondly a sidebar after that I was not able to understand how to create a World map using code as it was mentioned in the Figma design- "You cannot use images", So I moved on with the project making the Overview section, Keeping aside the incomplete Hex-map part. I have used "react-router-dom" library for routing the various sections of the website. Charts were not a problem, I already had my fair share of troubles with charts, So it came around pretty easy. Every component i created, I made sure that it further broke down into components. So that it could be reused or updated without breaking the hierarchy of the website. For styling i have gone with simple CSS. Coming back to the most important part - Hex-Map . After spending the entire Saturday on d3-hexbin documentation. I was able to replicate USA but the entire world , Taking into consideration the deadline, I accepted defeat. I moved on with making the Dashboard Section and Footer, Thus wrapping my project.
 
-## Learn More
+If you have come this far --->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To be honest, I loved the thrill, the chaos and Everything in the middle. Thank you giving me this opportunity.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Eagerly waiting to hear from you.
+                 
+  --Adnaan Hussain
