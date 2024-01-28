@@ -1,0 +1,21 @@
+.content-wrapper {
+  overflow-y: auto;
+  width: 100%;
+  height: calc(100vh - 96px);
+  background-color: #e2e4f0;
+}
+
+.dashboard-wrapper .container-wrapper {
+  padding-right: 0;
+}
+.home-wrapper .container-wrapper {
+  padding-bottom: 50px;
+}
+
+.container-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 30px;
+}

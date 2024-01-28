@@ -1,0 +1,14 @@
+.map {
+  width: 90%;
+  height: 90%;
+  padding: 20px;
+}
+
+.map .hex {
+  max-width: 70vw; 
+  max-height: 70vh; 
+  display: block; 
+  margin: auto; 
+  position: flex; 
+  mix-blend-mode: multiply;
+}

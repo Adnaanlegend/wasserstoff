@@ -1,0 +1,43 @@
+.percentage-circle {
+  display: flex;
+}
+
+.percentage-count {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+  letter-spacing: 0.44px;
+  color: #383874;
+  display: inline-flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0 25px 0 15px;
+}
+.active {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.active-users {
+  height: 59px;
+  width: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.percent {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  background: #e2e4f0;
+  border-radius: 50%;
+}

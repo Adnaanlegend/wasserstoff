@@ -1,0 +1,35 @@
+.sidebar {
+  width: 35%;
+}
+
+.div1 {
+  color: #383874;
+}
+
+.users {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+}
+
+.users .details {
+  font-family: "Roboto";
+  padding-left: 0.5rem;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+}
+
+.total {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -1.75px;
+}
+
+.percentage-circle {
+  display: flex;
+}

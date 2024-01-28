@@ -1,0 +1,14 @@
+.content-wrapper {
+  overflow-y: auto;
+  width: 100%;
+  height: calc(100vh - 96px);
+  background-color: #e2e4f0;
+}
+
+.dashboard-wrapper .container-wrapper {
+  padding-right: 0;
+}
+
+.container-wrapper {
+  padding-bottom: 50px;
+}

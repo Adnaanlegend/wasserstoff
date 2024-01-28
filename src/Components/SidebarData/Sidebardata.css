@@ -1,0 +1,45 @@
+.SidebarData {
+  width: 100%;
+  margin-top: 1rem;
+  color: #383874;
+}
+.div2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.totalearnicon {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.totalicon {
+  width: 45px;
+  height: 26px;
+}
+
+.total-earn {
+  font-size: 18px;
+  line-height: 32px;
+  padding-left: 1rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.heading {
+  margin-bottom: 8px;
+  letter-spacing: 0.43px;
+}
+
+.count {
+  font-weight: 600;
+  letter-spacing: 0.15px;
+}
